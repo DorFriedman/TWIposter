@@ -24,6 +24,7 @@ html {
 	font-family: 'futura', sans-serif;
 	font-size: 48px;
 	text-align: center;
+	top: 35%;
 	overflow: hidden;
 	z-index: 3;
 }
@@ -32,14 +33,47 @@ html {
 	position: absolute;
 	width: 45%;
 	text-align: center;
-	top: 75%;
+	top: 50%;
+	font-family: 'futura', sans-serif;
+	color: white;
+	z-index: 3;
+}
+
+.heading-time {
+	position: absolute;
+	font-size: 24px;
+	width: 45%;
+	text-align: center;
+	top: 60%;
+	font-family: 'futura', sans-serif;
+	color: white;
+	z-index: 3;
+}
+
+.cool-separator {
+	position: absolute;
+	background-color: white;
+	margin: 0 auto;
+	top: 70%;
+	left: 5%;
+	width: 35%;
+	height: 3px;
+	z-index: 3;
+}
+
+.offering-text {
+	position: absolute;
+	font-size: 18px;
+	width: 45%;
+	text-align: center;
+	top: 70%;
 	font-family: 'futura', sans-serif;
 	color: white;
 	z-index: 3;
 }
 
 .layer {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
     position: fixed;
     width: 45%;
     height: 100%;
