@@ -139,3 +139,10 @@ html {
 	}
 
 }
+
+@media screen and (max-width: 413px){
+	
+	.heading-text {
+		font-size: 40px;
+	}
+}
