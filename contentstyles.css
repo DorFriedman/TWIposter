@@ -29,7 +29,6 @@ html, body {
    display:inline-block;
    height:100%;
    width:45%;
-   background-color:#CAE4DB;
    position:relative;
 }
 
@@ -38,6 +37,7 @@ html, body {
    position:absolute;
    text-align:center;
    color:#00303F;
+   background-color:#CAE4DB;
    top:0;
    left:0;
 }
@@ -61,22 +61,31 @@ p{
    font-size:80%;
 }
 
-.bgvid{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   overflow: hidden;
-   z-index: -100;
+.fullscreen{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
 
-.fullscreen{
+.bgvid{
    position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
+   bottom: 0;
+   right: 0;
    height: 100%;
+   opacity:.75;
+}
+
+.landing{
+   display:block;
+   color:white;
+   background-color:transparent;
+   font-size:180%;
+   top:34%;
+   left:36%;
 }
 
 
