@@ -63,7 +63,7 @@ html {
 
 .offering-text {
 	position: absolute;
-	font-size: 18px;
+	font-size: 16px;
 	width: 45%;
 	text-align: center;
 	top: 70%;
@@ -89,4 +89,53 @@ html {
 	display: inline-block;
 	width: 44%;
 	height: 100%;
+}
+
+@media screen and (max-width: 1240px){
+
+	.heading-text {
+		margin-top: -5%;
+	}
+
+}
+
+@media screen and (max-width: 1062px){
+
+	.heading-text {
+		top: 30%;
+	}
+}
+
+@media screen and (max-width: 655px){
+
+	.heading-text {
+		top: 10%;
+	}
+}
+
+@media screen and (max-width: 573px){
+
+	.offering-text {
+		margin-top: 10%;
+	}
+	.cool-separator {
+		margin-top: 8%;
+	}
+}
+
+@media screen and (max-width: 450px){
+
+	.heading-text {
+		font-size: 44px;
+	}
+}
+
+@media screen and (max-width: 431px){
+	.heading-time {
+		margin-top: 5%;
+	}
+	.cool-separator {
+		margin-top: 13%;
+	}
+
 }
