@@ -52,7 +52,7 @@ button:last-child {
 button:focus {
 	outline: 0;
 	background-color: #CCCCCC;
-	color: 	#CD853F;
+	color: #6B8E23;
 }
 h4 {
 	font-size: 60px;
@@ -100,7 +100,7 @@ p{
    position: absolute;
    right: 0;
    height: 99.1%;
-   opacity:.75;
+   opacity:.65;
 }
 
 .landing{
@@ -116,8 +116,8 @@ p{
 .heading-text {
 	position: absolute;
 	width: 45%;
-	color: white;
-	font-family: 'futura', sans-serif;
+	color: #00FF00;
+	font-family: 'futura';
 	font-size: 48px;
 	text-align: center;
 	top: 20%;
@@ -132,11 +132,17 @@ p{
 	width: 45%;
 	text-align: center;
 	top: 41%;
-	font-family: 'futura', sans-serif;
+	font-family: 'futura';
 	color: white;
 	z-index: 3;
 }
-
+.logo {
+	position: absolute;
+	z-index: 3;
+	width: 310px;
+	top: 68%;
+	left: 20.2%;
+}
 .heading-time {
 	position: absolute;
 	font-size: 24px;
@@ -171,15 +177,11 @@ p{
 }
 
 .layer {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.4);
     position: fixed;
     width: 45%;
     height: 100%;
     z-index: 2;
-}
-@font-face {
-	font-family: 'Futura';
-	src: url('futuraThin.ttf') format('truetype');
 }
 .bodyText1 {
 	position: absolute;
@@ -192,4 +194,12 @@ p{
 .bodyText3 {
 	position: absolute;
 	margin-top: 40%;
+}
+@font-face {
+	font-family: 'Futura';
+	src: url('futuraThin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FuturaBold';
+	src: url('FuturaBold.ttf') format('truetype');
 }
